@@ -1,11 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <title>Exercise 3</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Star War API</title>
 </head>
+
 <body>
-    <center>
-        <h1>Daftar Planet</h1>
-    </center>
+    <div class="container">
+        <h1 style="text-align: center">Star War API</h1>
+        <div class="mx-auto" class="card" style="width: 50% ;">
+            <div class="card-body">
+                <div class="kontainer">
+                    <div class="container">
+                        <h2 id="nickname"></h2>
+                        <h2 id="Periode-Rotasi"></h2>
+                        <h2 id="Periode-Orbit"></h2>
+                        <h2 id="Iklim"></h2>
+                        <h2 id="Population"></h2>
+                        <!-- Isiian coy -->
+                    </div>
+                </div>
+                <button type="button" id="button" name="button " class="btn btn-light">Temukan Planet</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js"
+        integrity="sha256-xEofWHiBewJOBXBSH5JHWuwCYpBKOQ8KSGSVLbEVYyo=" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+
 </body>
+
 </html>
